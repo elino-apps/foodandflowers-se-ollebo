@@ -18,7 +18,7 @@ services:
        - "8000:80"
      restart: always
      volumes:
-       - ./:/var/www/wordpress/wp-content
+       - ./:/repo/wp-content
      environment:
        DBHOST: db
        SITENAME: wordpress
@@ -35,7 +35,7 @@ services:
        - 88:8080
      volumes:
        - ./:/repo/wp-content
-       - ~./ssh/:/keys
+       - ~/.ssh/:/keys
      environment:
        - repo=git@github.com:elino-apps/basewp.git
        - key=1234
