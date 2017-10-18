@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+   db:
+     image: mysql:5.7
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   wordpress:
+     depends_on:
+       - db
+     image: mattiashem/wp-base:latest
+     ports:
+       - "8000:80"
+     restart: always
+     volumes:
+       - ./:/var/www/wordpress/wp-content
+     environment:
+       DBHOST: db
+       SITENAME: wordpress
+       DBPASS: wordpress
+       SMTP_HOST: mailgun.com
+       SMTP_USER: non@test.com
+       SMTP_PASS: password
+       SMTP_FROM: non@test.com
+   sidekick:
+     depends_on:
+       - db
+     image: mattiashem/wordpress-sidekick:latest
+     ports:
+       - 88:8080
+     volumes:
+       - ./:/repo/wp-content
+       - ~./ssh/:/keys
+     environment:
+       - repo=git@github.com:elino-apps/basewp.git
+       - key=1234
+
+
