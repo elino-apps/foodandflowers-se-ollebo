@@ -9,9 +9,9 @@ All new wordpress are sarted with this base as wp-content
 
 Start the setup with 
 
-´´´
+```
 docker-compose up
-´´´
+```
 
 
 This will bring up the developer docker images and setup the wordpress for you.
@@ -25,11 +25,11 @@ You can now wisit your wordpress on your local computer at
 
 If you need a nother port modify the docker-compose.yaml and change port 80 to other port
 
-´´´
+```
      ports:
        - "??:80"
 
-´´´
+```
 
 ### DB Seed
 When you run docker-compose the sql in the file seed/wordpress.sql will be seeden into the SQL server
@@ -40,11 +40,11 @@ When you run docker-compose the sql in the file seed/wordpress.sql will be seede
 When updating the online wordpress simply push your changes to github master barnch
 
 
-'''
+```
 git add .
 git commit -a -m "Update"
 git push origin master
-'''
+```
 
 
 *** YOUR DB CHANGES WILL NOT BE PUSHED AND MUST BE APPLIED MANUALL ***
