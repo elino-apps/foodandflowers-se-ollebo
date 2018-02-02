@@ -18,9 +18,9 @@ This will bring up the developer docker images and setup the wordpress for you.
 You can now wisit your wordpress on your local computer at
 
 
-*** http://localhost ***
+** http://localhost **
 
-*** http://localhost/wp-admin *** (admin/admin)
+** http://localhost/wp-admin ** (admin/admin)
 
 
 If you need a nother port modify the docker-compose.yaml and change port 80 to other port
@@ -47,7 +47,7 @@ git push origin master
 ```
 
 
-*** YOUR DB CHANGES WILL NOT BE PUSHED AND MUST BE APPLIED MANUALL ***
+** YOUR DB CHANGES WILL NOT BE PUSHED AND MUST BE APPLIED MANUALL **
 
 
 ### Get the online version
