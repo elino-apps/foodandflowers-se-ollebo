@@ -15,7 +15,7 @@ services:
        - db
      image: mattiashem/wp-base:latest
      ports:
-       - "8000:80"
+       - "80:80"
      restart: always
      volumes:
        - ./:/repo/wp-content
@@ -27,17 +27,14 @@ services:
        SMTP_USER: non@test.com
        SMTP_PASS: password
        SMTP_FROM: non@test.com
-   sidekick:
+   dbseed:
      depends_on:
        - db
-     image: mattiashem/wordpress-sidekick:latest
-     ports:
-       - 88:8080
+     image: mattiashem/dbseed
      volumes:
-       - ./:/repo/wp-content
-       - ~/.ssh/:/keys
+       - ./seed:/seed
      environment:
-       - repo=git@github.com:elino-apps/basewp.git
-       - key=1234
-
+       - SQLUSER=wordpress
+       - SQLPASS=wordpress
+       - SQLDB=wordpress
 
