@@ -1,0 +1,561 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsmag\n"
+"POT-Creation-Date: 2014-06-09 13:28+0200\n"
+"PO-Revision-Date: 2014-06-09 13:28+0200\n"
+"Last-Translator: Burak Aydın <burak_sdu@outlook.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "Page Not Found!"
+msgstr ""
+
+#: ../404.php:15
+msgid "Go to"
+msgstr ""
+
+#: ../404.php:15
+msgid "Homepage"
+msgstr ""
+
+#: ../admin/options-init.php:111
+msgid "Section via hook"
+msgstr ""
+
+#: ../admin/options-init.php:112
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../admin/options-init.php:190
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../admin/options-init.php:207
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../admin/options-init.php:208
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../admin/options-init.php:209
+msgid "Tags"
+msgstr ""
+
+#: ../admin/options-init.php:214
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../admin/options-init.php:214
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../admin/options-init.php:240
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/options-init.php:246
+msgid "Image should be ico format and 16x16 size ( Exp: favicon.ico ) "
+msgstr ""
+
+#: ../admin/options-init.php:247
+msgid "Favicon"
+msgstr ""
+
+#: ../admin/options-init.php:248
+msgid "Upload your custom favicon."
+msgstr ""
+
+#: ../admin/options-init.php:254
+msgid "Logo"
+msgstr ""
+
+#: ../admin/options-init.php:255
+msgid "Theme title and description will disappear when uploaded"
+msgstr ""
+
+#: ../admin/options-init.php:256
+msgid "Allowed maximum height 39px"
+msgstr ""
+
+#: ../admin/options-init.php:263
+msgid "CSS Code"
+msgstr ""
+
+#: ../admin/options-init.php:264
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: ../admin/options-init.php:274
+msgid "Footer Text"
+msgstr ""
+
+#: ../admin/options-init.php:275
+msgid "Text will be displayed left side of footer"
+msgstr ""
+
+#: ../admin/options-init.php:276
+msgid "© Copyright 2014 Newsmag. All Rights Reserved."
+msgstr ""
+
+#: ../admin/options-init.php:292
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../admin/options-init.php:293
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../admin/options-init.php:294
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../admin/options-init.php:298
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../admin/options-init.php:306
+msgid "Import / Export"
+msgstr ""
+
+#: ../admin/options-init.php:307
+msgid "Import and Export your framework settings from file, text or URL."
+msgstr ""
+
+#: ../admin/options-init.php:326
+msgid "Theme Information"
+msgstr ""
+
+#: ../admin/options-init.php:327
+msgid "<p class=\"description\">Newsmag News / Magazine WordPress Theme</p>"
+msgstr ""
+
+#: ../admin/options-init.php:345
+msgid "Newsmag Help"
+msgstr ""
+
+#: ../admin/options-init.php:346
+msgid ""
+"<p>If you have any issue, you can contact me via this email : mail@burak-"
+"aydin.com</p>"
+msgstr ""
+
+#: ../admin/options-init.php:352
+msgid ""
+"<p>Theme by <a href=\"http://burak-aydin.com\" target=\"_blank\">Burak "
+"Aydin</a></p>"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:198
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:212
+#: ../admin/tgm/class-tgm-plugin-activation.php:1951
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:213
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:544
+#: ../admin/tgm/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1290
+#: ../admin/tgm/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1312
+#: ../admin/tgm/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2065
+#: ../admin/tgm/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2065
+#: ../admin/tgm/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../admin/tgm/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../admin/widgets.php:10
+msgid "Display latest photos from flickr."
+msgstr ""
+
+#: ../admin/widgets.php:124 ../admin/widgets.php:225
+msgid "Title:"
+msgstr ""
+
+#: ../admin/widgets.php:130
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">Get Your ID</a>):"
+msgstr ""
+
+#: ../admin/widgets.php:136
+msgid "Number of Photos:"
+msgstr ""
+
+#: ../admin/widgets.php:157
+msgid "Displays posts with most comments."
+msgstr ""
+
+#: ../admin/widgets.php:228
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../archive.php:14
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../archive.php:16
+msgid "Daily Archives"
+msgstr ""
+
+#: ../archive.php:18
+msgid "Yearly Archives"
+msgstr ""
+
+#: ../archive.php:20
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:61 ../author.php:53 ../block-onecolumn.php:53
+#: ../block-twocolumns.php:54 ../category.php:53 ../comments.php:9
+#: ../format-audio.php:19 ../format-gallery.php:19 ../format-image.php:19
+#: ../format-video.php:19 ../index.php:113 ../page.php:26 ../search.php:53
+#: ../tag.php:53 ../template-blog-1.php:111 ../template-blog-2.php:112
+msgid "No Comments"
+msgstr ""
+
+#: ../archive.php:61 ../author.php:53 ../block-onecolumn.php:53
+#: ../block-twocolumns.php:54 ../category.php:53 ../format-audio.php:19
+#: ../format-gallery.php:19 ../format-image.php:19 ../format-video.php:19
+#: ../index.php:113 ../page.php:26 ../search.php:53 ../tag.php:53
+#: ../template-blog-1.php:111 ../template-blog-2.php:112
+msgid "1 Comment"
+msgstr ""
+
+#: ../archive.php:61 ../author.php:53 ../block-onecolumn.php:53
+#: ../block-twocolumns.php:54 ../category.php:53 ../format-audio.php:19
+#: ../format-gallery.php:19 ../format-image.php:19 ../format-video.php:19
+#: ../index.php:113 ../page.php:26 ../search.php:53 ../tag.php:53
+#: ../template-blog-1.php:111 ../template-blog-2.php:112
+msgid "% Comments"
+msgstr ""
+
+#: ../archive.php:74 ../author.php:66 ../category.php:66 ../index.php:126
+#: ../search.php:66 ../tag.php:66
+msgid "Pages : "
+msgstr ""
+
+#: ../archive.php:113 ../author.php:105 ../category.php:105 ../index.php:165
+#: ../search.php:105 ../tag.php:105 ../template-blog-1.php:147
+#: ../template-blog-2.php:154 ../template-blog-3.php:134
+msgid "No posts found."
+msgstr ""
+
+#: ../author-bio.php:3
+msgid "about the author"
+msgstr ""
+
+#: ../author-bio.php:22
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../author.php:13
+msgid "Posts by "
+msgstr ""
+
+#: ../block-onecolumn.php:18 ../block-thumbnail.php:17
+#: ../block-twocolumns.php:17
+msgid "Category"
+msgstr ""
+
+#: ../category.php:13
+msgid "Category Posts for"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comment ( 1 )"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comments ( % )"
+msgstr ""
+
+#: ../comments.php:27
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:28
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:29
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: ../footer.php:29
+msgid "Theme by"
+msgstr ""
+
+#: ../footer.php:31
+msgid "Powered by"
+msgstr ""
+
+#: ../format-audio.php:23 ../format-gallery.php:23 ../format-image.php:23
+#: ../format-video.php:23 ../page.php:30 ../template-contact.php:25
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:32
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:33
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:160
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../functions.php:161
+msgid "This widget is located right side as sidebar."
+msgstr ""
+
+#: ../functions.php:171
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions.php:172 ../functions.php:183 ../functions.php:194
+#: ../functions.php:205
+msgid "This widget is located footer."
+msgstr ""
+
+#: ../functions.php:182
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions.php:193
+msgid "Footer 3"
+msgstr ""
+
+#: ../functions.php:204
+msgid "Footer 4"
+msgstr ""
+
+#: ../search.php:13
+msgid "Search results for "
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: ../single.php:17
+msgid "Home"
+msgstr ""
+
+#: ../single.php:31
+msgid "Tags : "
+msgstr ""
+
+#: ../tag.php:13
+msgid "Tags Posts for "
+msgstr ""
